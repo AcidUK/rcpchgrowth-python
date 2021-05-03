@@ -5,9 +5,7 @@ name: Python package
 
 on:
   push:
-    branches: [ live,  workflow-lint-and-test ]
   pull_request:
-    branches: [ live,  workflow-lint-and-test ]
 
 jobs:
   build:
